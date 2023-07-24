@@ -18,18 +18,18 @@
     border-radius: 6px;
 }
 
-.select p{
+#select p{
     width: 100%;
     padding: 15px 20px;
     
 }
-.select{
+#select{
     margin: 6px;
     background-color: rgba(255 ,255,255,0.7);
     border-radius: 6px;
 }
 
-.list{
+#list{
     width: 97%;
     background-color: rgba(255 ,255,255,0.7);
     border-radius:6px;
@@ -44,4 +44,8 @@
 
 .option:hover{
     background-color: rgba(255 ,255,255,0.7);
+}
+
+.hide{
+    visibility: hidden;
 }

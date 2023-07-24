@@ -1,6 +1,20 @@
 
-var select = document.getElementsByClassName('select');
-var selectText = document.getElementById('selectText');
-var options = document.querySelectorAll(".option");
+const select = document.querySelector("#select");
+const selectText = document.querySelector("#selectText");
+const list = document.querySelector("#list");
+const options = document.querySelectorAll(".option");
 
-console.log(options)
+     select.onclick = function(){
+    list.classList.toggle("hide ")
+     }
+
+for(option of options){
+    option.addEventListener(
+        "click",
+        function(){
+            selectText.innerHTML = this.textContent;
+
+            
+        }
+    )
+}
