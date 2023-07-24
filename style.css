@@ -14,7 +14,7 @@
 }
 .box{
     width: 350px;
-   
+    cursor: pointer;
     border-radius: 6px;
 }
 
@@ -34,6 +34,7 @@
     background-color: rgba(255 ,255,255,0.7);
     border-radius:6px;
     margin: 6px;
+    cursor: pointer;
 
 }
 .option{
